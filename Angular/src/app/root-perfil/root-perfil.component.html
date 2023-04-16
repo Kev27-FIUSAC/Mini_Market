@@ -1,0 +1,142 @@
+<style type="text/css">
+    body{
+      padding-top: 50px;
+      padding-bottom: 20px;
+  }
+  
+  h1{
+    font-size: 5em;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  a{
+  	font-size: 22px;
+  }
+
+  label{
+        font-size: 16px;
+    }
+    input{
+        font-size: 16px;
+    }
+
+    .trigger-btn {
+        display: inline-block;
+        margin: 100px auto;
+    }
+    .stater-template{
+      padding: 40px 15px;
+      text-align: center;
+    } 
+
+    input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+  }
+
+    .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+</style>
+
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark" style="background-color: #86B404;">
+  <!-- Navbar content -->
+  <a class="navbar-brand" href="#">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFU0lEQVR42u2aS2xUVRjH/999zNwZetvBTlvAQltolVejhIcYCRKQWKuGGIlxQTQudOFKia+NQNSFG407owsfLJToQlmAGkPUAjFBscHa0oItBZkCbZlOZzqdO3PvPccF1BSo87zT6R3ObzvffOfe35xz7ne+uYBAIBAIBAKBQCAQOA5lCnj6re88RLQbwFYA6oxJiMA5Tz/Q9BgCwDHEOd4/sKftpLsFvf39p6bFnrVslkYCEZDB0A0xBEkCvKoyyTm/76u9j3TPVUFKug+f3HsoYKSsXYmklf3syCEmadp+v1d9DsArrhSUMu0q0+YKAF6MwRnjSKSs6rm8xNIKMm1e9AtgjMO1gjjnIKKiXoBEqNi573CDKktZLdVClvQ0LABDX77ZlnGwtHff9vrBBgCDxRTkUWRU+NTZnhicc97LOZ46sKftr7wFPfzatw1ENMgz/FxERLMV40QuIoIqS/BrSi9jfNXX+9p5XkusXOGcI2XZYAm+XFWkRQBCjggiIqyo17GltQbzNOWGacizWMtOxOSbK25Y+LlrBKcvxv7bm2zGiZu2kvcmfTMr6nW8tKMFEjm+aWYdU0iue5cG8MHBs+j5J5r1UzQnQVtaa26R4yYkunYP0wVl+jlyEjR9WbmVXO9ByXJXg20lAc7KYIdmsE0DsuK9djwsRBCzTXBmIxG5ApJVROImwokZR83myhyKKSxXJG7CiIXBbRO+QB2IpEIEMVimgeqV20jWdHzRS0Avz7sz4GBMAbnuQM09j8I2Yhgf/B2Kx5+/IMlXiao7V0HWdD5VP5RDoQgAsqajqnEdGZGh/AX5go2QMxh2M7Kmw1fdkL8g2ePPujZxI0QESdWce8zfjghBQpAQdHsIspJxcNuEolWAJEUIAgDLmMDl7iMID5xEajJy7ckiKdDrlqFu5YOoql89twVN9aMpi8Z0rjHjodPo7/gcdjJ+01HJouilPkQv9WF+4xo0bdoFWfEUPF6me8xL0FTT3ukqOXbpDM4e+QjMttLmCZ/7A8xMomXbC8C0M5PDlfvcWmJ2KoGBo/tvkfN/RC52o+ubd+ALLMD8xjWobloLkFy+e9BwbwdSk+M5fceIjsCIjmDsQheGe4+iZevzUDS9/AQlxkIY7jtWUI6J4XM48+OHWNG+GyQr5SNo7EIX+n/5BMwyC841Gb6Iyz0/YWHr9vIQlIyNYKDjM0fkTDHSdwwLWx/KoX00hwWFOg+DWSlHc6biY0jGrsKrB90tiNkpRC786XhezjnMRLS0gpwoFI3xYTDbdLS4m4qTFE/aQs8VhSKzUlN5HG25SrLKtcpaJ9rApV1iqk8vyis0gcWtkGY4grhuD/LqQaj+AMzrh1EnkGQVi9a0l0uhSKi9+wGEOg85Jqdp8zPQKmvLp5JesGorwoOdmAyHstl8oVXVQV/QjLHzp2AmYtfbIBL0umYsXrcD84INs/ZHwqwIIlnFXdtfxN9HPsbE6PkZZ0X92sdRUdMEz7wAVH8AALBkw04Y0WEwMwmvXj1r56+SHDU8/iosb38ZVwd+Q3iwE8noKGTVi4q6pahdvhlaZe0tfzGRJMMXWIhSMquHVZJkBJs3Iti8EW6hZB1FJwpFh2JKWyg6HVOE8ebOEnMjQlAhgjhjIFkuawE8w1tzaQWNh3oSgcWrGYrdlSqZHM4mrvQn8hY0cHR/eMn6J44HW+7fVI6CRs/+enzo1A/h9AelDPjmL1q78rFX3wguW78BREqZTB1rtP/EidOH3nt3Mhw6WZAgWfWptmk0AFxPE++Gl+1vUARQTPH6z1vJuAmBQCAQCAQCgSBX/gUUPIITZjWe5wAAAABJRU5ErkJggg==" height="45" class="d-inline-block align-center"
+      alt="mdb logo"> Root
+  </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+        <a class="nav-link" routerLink="/rootUser" routerLinkActivate="active">Servicio
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/rootUser/user" routerLinkActivate="active">Mis Datos</a>
+      </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEiUlEQVR42tVXW2hUVxTdM5NofE2KWl9p7YdaCxVb0mIpSLE04k9Ri4UGEbStQlsFvRS0tsVSiBoINmhRBKEhCppYqfgAi1wV4yMfyY/UdxUVXzX1mRjjZDTjWnPWcMchMmMnpfTCOnffueecvc7ea597JmT/8RX6/xHw/LFoPwD6AI+ABDAYaAG2WnVZy79DwPML0VYAN4D1cPQg4/2raJcCO/Fue88S8Pww2p+A3zB5A57LYE8FhqvHXmAP3l3Bu0rYJ2Bv6kkCn6JlBDYAG4FZQBx4CLQBjAbT8U0yAq7PjyBxLn8CLvTbteIvgCpz+efF/MdE5G/gHjBbpL4DgS97gsC7aN8HqoEmoASIAuE0AgS1cQE4BMfLMW4b7JmwO/MlwFVfBK4BdcAIRaBQ47uAO8BNoENkJpoTZB0I/JkvgUVojwB9gVo5LwL6pUWBKeiUc+rhdaWiGQSa8yVQjvYucFUEBmpcX6Wil3qSCHN/Gk7fwbhvYdfAvp4vgZLkaqrLVsCuMaeBQbq/qCiYUsHKqEDfCvRdC3sB7ER+BBwJ1vYPADebVcArct4fiKSlgiKdArwMlMJ5bbapc4nAa+bq/ldMeAzPE8ztiKNEIqZ0XAI+Qp8z6DNX71fgue2fE/D8hQr1SnP5fU/gb/vlnCufbk4bDcBuOD2FsaONewEjVl12/PkJeD5VHMfgzbA/hL1ajqn4y8A+vFuEd6wK7nhDzZUr7cZkxJy9JjmWpHIm4PnM4TwMWgbbg00NUO2PzdV6q+6TgTFAvaJBh9ySB+j5e3MlzC38c8wXz5UAS+hn4A2thKov0FvWe7u5jalWKSkVqd7mNij25ebEPSH10XoTBH7JlcBKdF6K+2Y8TQKGmFN7QpMS3PkovhfMlWBEzmMiyblPA5sw1wbMtQ73r7IT8PyX0E7T6g6aK7kBFmy9ndJB/4yRCb1jSd4WSLQJjudj3sXSQiwbgcla0RXgdznnSvtowrD0EM5wnpBGHuh+V/N0wOl4zDsH9uHMT3R3BOah/UMhXW+u1jl5XCSKFY3urtTXMS6CvF+XllhJZ0HgRDYCS9DuUG6r9CsdDxWZXs8c+zQRpukvEXrLnBiPZZZjdwRYAfVyugwYae4TPDDNeUT5pupZdgUZc6X0wIsfsXHAx8BREDifjQCPVVT/MHObyGCt/LG00GbB9ksn0bSUdFkgVlMKTgLcvstFIKsGvjZ38GDtbpHjfup71YLjeG8Ro0MKr0PPIf1GcqyU+1rEDKO2ctDAZ2gPyMlEC85/N6SLNq2+WKFuV0QGySmj0Kq+qa8kD6mfmCvJs9kIUCwUHA8Tj6wnLs/nCYp6qsScrU8T8HwKi+e3t83VPHe9Iq2UewFFWKAQ35IdteC7UKRVP5Ru4sJ99YlqDjq+rDE8Qe8CmW0kUJp8cBOnznnhNDGlPiARTRjRc1hpCqX91mXBblmg/oVpqTALKuQMMCGkEDHkrNURisJYiaxTA1In4ZBIpiIyRHZCK4zL5thrIsg57ilCLYoiddCICLTn9+/Y84PxWc5+z7qeAP1phGM1G2hWAAAAAElFTkSuQmCC"/>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right dropdown-default"
+          aria-labelledby="navbarDropdownMenuLink-333">
+              <a class="dropdown-item" href="#">Cerrar Sesion</a>
+          </div>
+          </li>
+      </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="stater-template">
+        <h1>Mis Datos</h1>
+    </div>
+    <div class="form-group">
+    	<label>UserName</label>
+    	<input type="text" class="form-control" [(ngModel)]="UserNametxt" name="nombre"/>
+    </div>
+    <div class="form-group">
+    	<label>Apellidos</label>
+    	<input type="text" class="form-control" name="Apellidos"/>
+    </div>
+    <div class="form-group">
+    	<label>Contraseña</label>
+    	<input type="text" class="form-control" [(ngModel)]="Paswoordtxt" name="Contraseña"/>
+    </div>
+    <div class="form-group">
+    	<label>Correo</label>
+    	<input type="text" class="form-control" [(ngModel)]="Correotxt" name="Correo"/>
+    </div>
+    <div class="form-group">
+    	<label>Telefono</label>
+    	<input type="text" class="form-control" name="Telefono"/>
+    </div>
+    <div class="form-group">
+    	<label>Genero</label>
+    	<input type="text" class="form-control" name="Genero"/>
+    </div>
+    <div class="form-group">
+    	<label>Fecha Nacimiento</label>
+    	<input type="text" class="form-control" [(ngModel)]="Fechatxt" name="Fecha"/>
+    </div>
+    <div class="form-group">
+    	<label>Direccion</label>
+    	<input type="text" class="form-control" name="Direccion"/>
+    </div>
+    <div class="form-group">
+    	<input type="button" class="fadeIn fourth" value="Actualizar datos" name="Actualizar"/>
+    </div>
+</div>

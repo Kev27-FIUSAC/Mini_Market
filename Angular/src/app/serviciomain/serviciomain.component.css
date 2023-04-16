@@ -1,0 +1,60 @@
+a{
+    font-size: 22px;
+}
+
+     body{
+      padding-top: 50px;
+      padding-bottom: 20px;
+  }
+  
+  h1{
+    font-size: 6em;
+  }
+
+  h2{
+    font-size: 4em;
+  }
+
+  p{
+    font-size: 2em;
+  }
+
+  select{
+  	 font-size: 13px;
+  }
+
+  label{
+        font-size: 16px;
+    }
+    input{
+        font-size: 15px;
+    }
+
+    .stater-template{
+      padding: 40px 15px;
+      text-align: center
+    } 
+
+.topnav {
+  
+}
+
+.topnav input[type=text] {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.topnav .search-container button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .serach-container button:hover {
+  background: #ccc;
+}

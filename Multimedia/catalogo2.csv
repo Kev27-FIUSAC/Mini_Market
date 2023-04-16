@@ -1,0 +1,13 @@
+﻿codigo,nombre,precio,categoria,imagen,color,cantidad,descripcion
+40,Toy Story 4,75.80,Electronico-Pelicula,img2/toystory.png,blanco,75,Pelicula de Disney-Pixar de la mitica saga Toy-Story la conclusion
+41,Loco por Ti,12.50,Electronico-Pelicula,img2/loco.png,blanco,78,Pelicula chafa mexicana 
+42,Once Upon a Time in Hollywood,80.00,Electronico-Pelicula,img2/uatih.png,blanco,80,Exitosa pelicula
+43,1917,80.00,Electronico-Pelicula,img2/p1917.png,blanco,12,Multiples premios
+44,Parasite,80.00,Electronico-Pelicula,/home/temporal/imágenes/parasito.png,blanco,80,Ganadora como mejor pelicula del año de unos parasitos chinos
+45,Pelota,12.00,Deporte-Futbol,img2/pelota.png,blanco,15,pelota para practicar y jugar Futbol
+46,Lampara,50.00,Utilidades,img2/lampara.png,cafe,75,Ilumine su habitacion
+47,Lampara Gas,21.50,Utilidades-Antiguo,img2/gas.png,gris,21,clasica lampara de gas
+48,Baterias Rayovac C2,25.50,Utilidades-Bateria,img2/bateria.png,gris,20,potentes baterias para sus productos electronicos
+49,Crayones Crayola jumbo,12.50,Utilidades-Crayon,img2/caryon2.png,colores,15,Crayones jumbo para los mas pequeños y dale color a su creatividad
+50,Watercolors Crayola 24,30.00,Utilidades-Acuarela,img2/acuarela.png,colores,75,Acualeras para los mas pequeños y dale color a su creatividad y es muy facil de limpiar
+51,Temperas Crayola,25.50,Utilidades-Tempera,img2/temperas.png,colores,15,de la mejor calidad de temperas y dale color a su cretividad

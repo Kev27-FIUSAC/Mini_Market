@@ -1,0 +1,14 @@
+﻿codigo,nombre,precio,categoria,imagen,color,cantidad,descripcion
+40,Toy Story 4,75.80,Electronico-Pelicula,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/toystory.png,blanco,75,pelicula toy story 4 la ultima pelicula de la franquicia.
+41,Loco por Ti,12.50,Electronico-Pelicula,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/loco.png,blanco,100,pelicula mexicana loco por ti 
+42,Once Upon a Time in Hollywood,80.00,Electronico-Pelicula,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/uatih.png,blanco,80,pelicula exitosa
+43,1917,80.00,Electronico-Pelicula,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/p1917.png,blanco,12,pelicula muy buena
+44,Parasite,80.00,Electronico-Pelicula,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/parasito.png,blanco,75,parasito
+45,Pelota,12.00,Deporte-Futbol,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/pelota.png,blanco,15,pelota de futbol
+46,Lampara,50.00,Utilidades,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/lampara.png,cafe,25,lampara con baterias recargable
+47,Lampara Gas,21.50,Utilidades-Antiguo,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/gas.png,gris,25,lampara de gas
+48,Baterias Rayovac C2,25.50,Utilidades-Bateria,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/bateria.png,gris,20,baterias alcalinas
+49,Crayones Crayola jumbo,12.50,Utilidades-Crayon,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/crayon.png,colores,15,crayones muy bonitos
+50,Watercolors Crayola 24,30.00,Utilidades-Acuarela,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/acuarela.png,colores,15,acuarelas de multi color
+51,Temperas Crayola,25.50,Utilidades-Tempera,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/temperas.png,colores,15,multiples temperas
+52,Lampara,32.45,Utilidades-Lampara,/home/temporal/Documentos/Javascript/Intro/Angularjv/Cloud2P2/src/carga/lampara2.png,verde,75,lampara con baterias recargable

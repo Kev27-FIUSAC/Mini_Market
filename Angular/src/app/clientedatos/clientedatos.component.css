@@ -1,0 +1,76 @@
+a{
+  	font-size: 22px;
+}
+
+     body{
+      padding-top: 50px;
+      padding-bottom: 20px;
+  }
+  
+  h1{
+    font-size: 4em;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+  select{
+  	 font-size: 13px;
+  }
+
+  label{
+        font-size: 16px;
+        font-style: oblique;
+        font-family: sans-serif;
+        color: #A63C00
+    }
+    input{
+        font-size: 15px;
+    }
+    
+
+    input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+  }
+
+    .fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+
+    .trigger-btn {
+        display: inline-block;
+        margin: 100px auto;
+    }
+    .stater-template{
+      padding: 40px 15px;
+      text-align: center;
+    } 

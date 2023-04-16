@@ -1,0 +1,34 @@
+﻿codigo,nombre,precio,categoria,imagen,color,cantidad,descripcion
+1,HP Computadora,12345.25,Electronico-Computadora,img/hprojo.png,rojo,25,Computadora todo en uno hp con lo ultimo en tecnologia y a un buen precio
+2,Yummi Pops,2.00,Comida,img/pop.png,azul,100,Poporops a un buen sabor y 0 gluten
+3,Yummi Pops,2.00,Comida,img/pop2.png,naranja,100,Poporops a un buen sabor y 0 gluten
+4,Nintendo Switch,2500.99,Electronico-Juegos,img/switch.png,negro,100,Consola Nintendo obtenga la versatilidad en una consola
+5,Nintendo 3DS,1564.36,Electronico-Juegos,img/3ds.png,rojo,100,Consola portatil Nintendo con efecto 3D sin la necesidad de lentes especiales
+6,Sony DVD player,452.25,Electronico-Video,img/dvd.png,negro,52,Reproductos dvd con buena calidad de imagen y audio
+7,Cuaderno Exito de 100 hojas,7.50,Utilidades-Cuaderno,img/cuaderno100.png,azul,15,Cuaderno en blanco con 100 hojas espiral
+8,Libreta Snoopy 2020 agenda,22.50,Utilidades-Agenda,img/agenda.png,amarillo,50,Libreta 100 hojas
+9,IPAD 7th Gen,1235.25,Electronico-Tableta,img/ipad.png,blanco,452,Tableta apple de 7th generacion haga su productividad muy sencilla y eficaz
+10,Tomate,1.25,Comida-Verduras,img/tomate.png,rojo,100,Verdura tomate
+11,Banano,2.25,Comida-Frutas,img/banano.png,amarillo,34,Fruta banano
+12,Fresa,1.75,Comida-Frutas,img/fresa.png,rojo,78,Fruta fresa
+13,uva,0.25,Comida-Frutas,img/uva.png,morado,25,Fruta uvas 
+14,Laptop HP 16GB,11256.25,Electronico-Computadora,img/laptop.png,blanco,42,Laptop portatil de HP obtenga un mejor rendimiento gracias a su nueva unidad SSD y su eficiente 16GB RAM para videojuegos
+15,Agenda electronica,584.47,Electronico-Tableta,img/agendae.png,blanco,475,Moderna y eficiente agenda electronica tenga una vida mas ordenada
+16,Playera talla m,42.25,Ropa-Playera,img/temporal/playera.png,celeste,75,Siempre a la moda la playera le dara el mejor toque a la moda
+17,short multi color talla s,50.00,Ropa-Short,img/short.png,rojo,12,Short muy elegante y a la moda
+18,Blusa estilo fresh talla XL,100.00,Ropa-Blusa,img/blusa.png,morado,50,Blusa muy a la moda 
+19,PlayStation 4 pro 1TB,2014.25,Electronico-Juegos,img/play4.png,negro,45,Consola Sony ps4
+20,Super Smash Bros. Ultimate,785.99,Electronico-Juegos,img/smash.png,rojo,500,juego de peleas con el mejor crossover 
+21,Resident Evil 3 Remake,785.99,Electronico-Juegos,img/re3.png,azul,500,clasico pero moderno
+22,Lapizero Bic,1.00,Utilidades-Lapizero,img/lapizero.png,rojo,400,lapizero bic buena calidad
+23,Lapizero Bic,1.00,Utilidades-Lapizero,img/lapizeron.png,negro,400,lapizero bic buena calidad
+24,Lapizero Bic,1.00,Utilidades-Lapizero,img/lapizeroa.png,azul,400,lapizero bic buena calidad
+25,Nintendo 3DS,1253.36,Electronico-Juegos,img/23ds.png,negro,25,Consola portatil Nintendo con efecto 3D sin la necesidad de lentes especiales
+26,IPAD 7th Gen,1125.25,Electronico-Tableta,img/ipad2.png,negro,12,Tableta apple de 7th generacion haga su productividad muy sencilla y eficaz
+27,Iphone 2019,2321.12,Electronico-Phone,img/iphonewhite.png,blanco,21,Iphone moderno
+28,Coco Pixar,45.50,Electronico-Pelicula,img/coco.png,blanco,78,Pelicula de Disney-Pixar 2017 sobre el dia de muertos
+29,Joker,45.50,Electronico-Pelicula,img/joker.png,blanco,78,Pelicula de Warner-DC disfruta esta nueva version de joker
+30,Iphone 2019,3000.00,Electronico-Phone,img/iphone.png,rosado,50,Iphone moderno
+31,Stikers,0.50,Utilidades,img/stiker.png,morado,25,pegatinas muy divertidas
+33,Cuervo Classic Collection,30.00,Electronico-Pelicula,img/cuervo.png,blanco,80,lo mas reciente de la coleccion del cuervo
+34,Laptop HP 16GB,1023.25,Electronico-Computadora,img/laptopn.png,negro,50,Laptop portatil de HP obtenga un mejor rendimiento gracias a su nueva unidad SSD y su eficiente 16GB RAM para videojuegos
